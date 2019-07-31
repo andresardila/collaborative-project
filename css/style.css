@@ -1,7 +1,41 @@
 #title {
     margin: 8px;
+    color: white;
 }
+
+#description {
+}
+
 #survey-form{
     width: 30%;
     margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+body { 
+    background-color: rgb(62, 37, 196);
+}
+
+#submit {
+    padding: 8px 16px;
+    border: 1px solid rgb(62, 37, 196);
+    background-color: rgb(62, 37, 196);
+    color: white;
+    border-radius: 4px;
+}
+
+.form-bottom {
+    margin-top: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-group {
+    padding: 8px;
+}
+
+.form-input {
+    padding: 4px;
 }
