@@ -27,13 +27,39 @@
     <p align="center" id="description">Let us know how we can improve Microverse</p>
 
     <form id="survey-form">
-        name:
-      <input id="name" type="text"><br>
-        email:
-        <input id="email" type="email"><br>
-        number:
-        <input id="number" type="number" min="0" max="20">
-        
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="John Doe"><br>
+
+      <label id="email-label">Email:</label>
+      <input id="email" type="email" placeholder="john@gmail.com"><br>
+
+      <label id="number-label">Age:</label>
+      <input id="number" type="number" min="0" max="20" placeholder="18"><br>
+
+      <label>Which option best describes your current role?</label>
+      <select id="dropdown">
+        <option>Student</option>
+        <option>Full time job</option>
+        <option>Full time learner</option>
+        <option>Other</option>
+      </select>
+      <br>
+
+      <label>How likely is that you would recommend Microverse to a friend?</label>
+      <input type="radio" name="recommend">Definitly</input>
+      <input type="radio" name="recommend">Maybe</input>
+      <input type="radio" name="recommend">Not Sure</input>
+      <br>
+
+      <label>Things that should be improved in the future
+        (Check all that apply):</label>
+      <input type="checkbox" value="frontend-improvement">Frontend Development</input>
+      <input type="checkbox" value="backend-improvement">Backend Development</input>
+      <input type="checkbox" value="management-improvement">Project Management</input>
+      <br>
+
+      <label>Any other recommendations?</label>
+      <textarea></textarea>
       </form>
 
     <script  src="js/index.js"></script>
