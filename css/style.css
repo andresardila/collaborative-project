@@ -34,6 +34,7 @@ body {
 
 .form-group {
     padding: 8px;
+    font-family: monospace
 }
 
 .form-input {
